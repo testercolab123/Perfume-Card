@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://kit.fontawesome.com/f22880004c.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+	<style type="text/css">
+		@media only screen and (max-width: 600px){
+			.parent{
+				display: block;
+			}
+		}
+
+		h1, .new{
+			font-family: 'DM Serif Display', serif;
+			line-height: 30px;
+		}
+		body{
+			background-color: #f3eae3;
+			display: flex;
+			justify-content: center;
+		}
+		.parent{
+			width: 600px;
+			height: 400px;
+			background-color: white;
+			box-shadow: 2px 2px 2px #E8E8E8;		
+			display: flex;
+			justify-content: center;
+			text-align: left;
+			border-radius: 10px;
+			overflow: hidden;
+			position: absolute;
+			top: 15%;
+		}
+		.left{
+			width: 55%;
+		}
+		.right{
+			width: 45%;
+			padding: 0px 30px;
+		}
+		.right div{
+			display: flex;
+  			justify-content: center;
+  			align-items: center;
+		}
+		img{
+			width: 100%;	
+		}
+		button{
+			display: block;
+			background-color: #1A4031;
+			color: white;
+			padding: 15px 10px;
+			border: none;
+			border-radius: 10px;
+			width: 100%;
+			cursor: pointer;
+		}
+		.price{
+			height: 30px;
+			margin-bottom: 20px;
+		}
+		.new{
+			font-size: 30px;
+			margin-right: 10px;
+			color: seagreen;
+		}
+		del{
+			align-content: center;
+		}
+		h6,p{
+			color: gray;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="parent">
+		<div class="left"><img src="image-product-desktop.jpg"></div>
+		<div class="right">
+			<h6>PERFUME</h6>
+			<h1>Gabrielle Essence Eau De Parfum</h1>
+			<p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creater for the House of CHANEL.
+			<div class="price">
+				<p class="new">$149.99</p>
+				<del>$169.99</del></div>
+			<div><button><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button></div>
+		</div>
+	</div>
+
+</body>
+</html>
